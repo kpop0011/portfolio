@@ -1,0 +1,151 @@
+@media all and (min-width : 360px) and (max-width : 769px){
+    header{
+        left: auto;
+        width: 100%;
+        height: 50px;
+    }
+    header .hWrap .gnb{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+    header .hWrap .gnb li{
+        font-size: 12px;
+        line-height: 50px;
+        padding: 0 10px;
+    }
+    header .hWrap .gnb li.active{
+        background-color: inherit;
+        color: inherit;
+    }
+    
+    .main .txtSet{
+        position: absolute;
+        right: 20%;
+        bottom: 40%;
+        text-align: right;
+    }
+    .main .txtSet h1{
+        font-size: 40px;
+    }
+    .main .txtSet p{
+        font-size: 20px;
+    }
+    section .menuName p{
+        font-weight: bold;
+        font-size: 20px;
+        height: 36px;
+        line-height: 36px;
+    }
+    section button{
+        width: 120px;
+        height: 40px;
+        margin-top: 80px;
+        border: 0;
+        font-size: 16px;
+        border-radius: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .resume{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 100px;
+    }
+    .resume .con{
+        display: block;
+    }
+    .resume .imgSet{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .resume .txtSet{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .resume .txtSet .txtCon{
+        display: block;
+    }
+    .resume .txtSet .txtCon .email{
+        width: 100%;
+        margin-right: 0;
+    }
+    .resume .txtSet .txtCon .phone{
+        width: 100%;
+    }
+
+    .project .txtSet p{
+        font-size: 40px;
+    }
+
+    .mainProject{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 100px;
+    }
+    .mainProject .con{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+    .mainProject .con .imgSet{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding: 0 40px;
+    }
+    .mainProject .con .imgSet img{
+        width: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mainProject .con .imgSet .slide{
+        width: calc(77.5% - 45px);
+        height: 73.5%;
+        position: absolute;
+        top: 4%;
+        left: 14.5%;
+        overflow: hidden;
+    }
+    .mainProject .con .txtSet .stackImg{
+        width: 100%;
+    }
+    .mainProject .con .txtSet{
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 90px;
+    }
+
+    .mainDokdo .con .imgSet .moImg{
+        bottom: 0;
+        right: 20%;
+    }
+    .mainDokdo .con .imgSet .moImg .linkImg{
+        height: 93%;
+        width: 75.5%;
+        top: 3%;
+        left: 12%;
+    }
+    
+    .end .txtSet{
+        font-size: 18px;
+    }
+    .end .txtSet p{
+        font-size: 16px;
+    }
+    .end .txtSet h3{
+        font-size: 26px;
+    }
+}
+@media all and (min-width : 360px) and (max-width : 400px){
+    header .hWrap .gnb{
+        margin: 0;
+        margin-left: 10px;
+    }
+}
